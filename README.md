@@ -1,7 +1,10 @@
 TEST Transport Park Management System API
 
 System: </br>
-API build using Symfony, on development environment LANDO (https://lando.dev/).
+Build using Symfony on development container LANDO (https://lando.dev/).</br>
+After lando installed, start with command: 'lando start' </br>
+Databese structure created with migration, to create database: 'lando console doctrine:migrations:migrate' </br>
+Some dum data created with fixtures, to fill database: 'lando console doctrine:fixtures:load' </br>
 
 
 API endoints: </br>
